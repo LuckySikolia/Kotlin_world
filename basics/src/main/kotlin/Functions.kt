@@ -7,14 +7,7 @@ fun sumDoubles(a:Double, b:Double ,c:Double):Double {
     return a + b + c
 }
 
-fun duplicate(z:String):String{
-    var count = 0
-    while (count < 2){
-        println(z)
-        count++
-    }
-    return z
-}
+
 
 fun main()
 {
@@ -27,4 +20,13 @@ fun main()
     println(".....")
     println(sum)
     println(".....")
+}
+
+fun duplicate(z:String):String{
+    var count = 0
+    while (count < 2){
+        println(z)
+        count++
+    }
+    return z
 }
